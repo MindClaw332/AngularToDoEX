@@ -1,0 +1,75 @@
+.task-manager {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .task-item.work{
+    background-color: #5b68cb;
+    border-radius: 50px;
+  }
+
+  .task-item.health{
+    background-color: #5bcb8f;
+    border-radius: 50px;
+  }
+  
+  .task-item.personal{
+    background-color: #9a5bcb;
+    border-radius: 50px;
+  }
+
+  .task-item.shopping{
+    background-color: #cbab5b;
+    border-radius: 50px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .priority-badge {
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.8em;
+  }
+  
+  .priority-badge.high {
+    background-color: #ffebee;
+    color: #c62828;
+  }
+  
+  .priority-badge.medium {
+    background-color: #fff3e0;
+    color: #ef6c00;
+  }
+  
+  .priority-badge.low {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
+
+  .filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .category-background{
+    background-color: #c62828;
+  }
